@@ -1,0 +1,138 @@
+html {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* Navbar */
+
+.navbar-brand,
+.nav-link.active {
+  color: #150544;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.nav-link {
+  color: #5a6772;
+  font-size: 18px;
+  font-weight: 400;
+  margin-right: 40px;
+}
+
+.nav-link.active,
+.btn.btn-sign {
+  font-weight: 500;
+}
+
+.btn.btn-sign {
+  background-color: #150544;
+  color: #fff;
+  border-radius: 8px;
+  padding: 12px 30px;
+}
+
+.tittle {
+  font-weight: 800;
+  font-size: 48px;
+}
+
+.desc {
+  font-size: 18px;
+}
+
+.desc,
+.text-features {
+  color: #5a6772;
+}
+
+.nav-link:hover {
+  color: #052d44;
+}
+
+/* Features */
+
+.features {
+  background: url("../img/Union.png") no-repeat;
+  background-size: contain;
+  color: #150544;
+}
+
+/* Package */
+
+.package {
+  color: #150544;
+  position: relative;
+}
+
+.bg-package {
+  background-color: #e7f6ff;
+  height: 600px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 10;
+  bottom: 0;
+  z-index: -1;
+}
+
+.list-group {
+  padding: 0 30px;
+}
+
+.list-group li {
+  list-style: none;
+}
+.list-group p {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.card {
+  border-radius: 11px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card.kanan {
+  border-color: #150544;
+}
+
+.card .price {
+  font-size: 52px;
+  font-weight: 800;
+}
+
+.card .price span {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.card-header {
+  background-color: #150544;
+  color: #fff;
+  font-size: 18px;
+}
+
+.desc-price {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+/* Story */
+
+.story {
+  background: #150544 url("../img/Union1.png") no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.story h1 {
+  font-size: 3vw;
+  font-weight: lighter;
+}
+
+.story .nama {
+  margin-bottom: 0;
+}
